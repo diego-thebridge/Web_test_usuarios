@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items Selection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Select Items</h2>
+    <div id="itemsList">
+        <label><input type="checkbox" value="100" class="item">Item 1 - $100</label><br>
+        <label><input type="checkbox" value="200" class="item">Item 2 - $200</label><br>
+        <!-- Add more items here -->
+    </div>
+    <button onclick="calculateTotal()">Calculate Total</button>
+    <h3>Total: $<span id="totalPrice">0</span></h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
